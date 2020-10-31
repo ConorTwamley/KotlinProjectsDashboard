@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Kotlin Projects Dashboard</string>
+    <string name="work">Work</string>
+    <string name="travel">Travel</string>
+    <string name="weather">Weather</string>
+    <string name="education">Education</string>
+    <string name="medical">Medical</string>
+    <string name="header">Kotlin Dashboard</string>
 </resources>
