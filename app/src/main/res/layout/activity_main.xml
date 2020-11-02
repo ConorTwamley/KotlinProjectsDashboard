@@ -70,7 +70,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/travel_tile"
+                android:id="@+id/location_tile"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
@@ -91,12 +91,12 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_baseline_airplanemode_active_24" />
+                        android:src="@drawable/ic_baseline_my_location_24" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/travel"
+                        android:text="@string/location"
                         android:textColor="@android:color/black"
                         android:padding="10dp"
                         android:layout_marginTop="10dp"
@@ -135,7 +135,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/baseline_calculate_black_24dp"
+                        android:src="@drawable/ic_baseline_calculate_24"
                         android:scaleType="center"/>
 
                     <TextView
