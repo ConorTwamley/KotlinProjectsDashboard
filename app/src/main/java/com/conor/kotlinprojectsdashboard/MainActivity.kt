@@ -13,18 +13,19 @@ class MainActivity : AppCompatActivity() {
 
         val weatherTile = findViewById<CardView>(R.id.weather_tile)
         val travelTile = findViewById<CardView>(R.id.travel_tile)
-        val educationTile = findViewById<CardView>(R.id.education_tile)
+        val calculatorTile = findViewById<CardView>(R.id.calculator_tile)
         val medicalTile = findViewById<CardView>(R.id.medical_tile)
 
         weatherTile.setOnClickListener{
-            val intent = Intent(this@MainActivity, WeatherActivity::class.java)
-            startActivity(intent)
+            val intentWeather = Intent(this@MainActivity, WeatherActivity::class.java)
+            startActivity(intentWeather)
         }
         travelTile.setOnClickListener{
             Toast.makeText(applicationContext, "Travel", Toast.LENGTH_SHORT).show()
         }
-        educationTile.setOnClickListener{
-            Toast.makeText(applicationContext, "Education", Toast.LENGTH_SHORT).show()
+        calculatorTile.setOnClickListener{
+            val intentCalculator = Intent(this@MainActivity, CalculatorActivity::class.java)
+            startActivity(intentCalculator)
         }
         medicalTile.setOnClickListener{
             Toast.makeText(applicationContext, "Medical", Toast.LENGTH_SHORT).show()
